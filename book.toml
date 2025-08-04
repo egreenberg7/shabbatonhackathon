@@ -1,0 +1,5 @@
+[book]
+authors = ["LeahHersh"]
+language = "en"
+src = "src"
+title = "Johns Hopkins Shabbaton Hackathon"
