@@ -6,4 +6,4 @@
 - [FAQ](./FAQ.md)
 - [Resources](./Resources.md)
 - [Sponsors](./Sponsors.md)
-- [Contact](./Contact.md)
+- [Team](./Team.md)

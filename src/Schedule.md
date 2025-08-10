@@ -46,7 +46,7 @@ Shiur topic/description?
 ## Motzei Shabbat
 
 **7:00 PM: Start of the Hackathon**  
-Topics are announced at Hillel, but feel free to familiarize yourself with the [Sefaria API](https://developers.sefaria.org/reference/getting-started) to get a head start!
+Project categories are announced at Hillel, but feel free to familiarize yourself with the [Sefaria API](https://developers.sefaria.org/reference/getting-started) to get a head start!
 
 **9:00 PM: Melavah Malkah**  
 Pizza dinner and snacks.
@@ -78,6 +78,6 @@ Submissions are due, and we'll watch the video presentations of your final produ
 **5:15 PM:** Dinner and Awards
 
 **6:30 PM: Event Conclusion**
-The event will be over by this time, but Hillel will be open until ?8:00PM?. Feel free to stick around!
+The event will be over by this time, but Hillel will be open until ?8:00PM?: feel free to stick around!
 
 ## Laila Tov!
