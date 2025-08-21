@@ -2,4 +2,7 @@
 authors = ["LeahHersh"]
 language = "en"
 src = "src"
-title = "Johns Hopkins Shabbaton Hackathon"
+title = "Yavneh Shabbaton Hackathon @ JHU"
+[output.html]
+additional-css = ["custom.css"]
+

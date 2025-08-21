@@ -1,0 +1,42 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Montserrat:wght@300;400;500&display=swap');
+
+/* General background */
+html body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f4fa;
+}
+
+/* Headings does not seem to work */
+html h1 {
+    font-family: 'Open Sans', sans-serif;
+    color: #F23207;
+}
+
+html h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #F23207;
+}
+
+html h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: #F23207;
+}
+
+
+
+/* Sidebar background (slightly darker than #EBE8F4) */
+#sidebar {
+    background-color: #ebe8f4; /* slightly darker tone */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+/* Sidebar text */
+#sidebar {
+    color: #F23207;
+    font-family: 'Open Sans', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+
