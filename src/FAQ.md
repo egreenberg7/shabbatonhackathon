@@ -23,3 +23,6 @@ While completing the projects will require some coding experience, there is no m
 
 ### I have dietary restrictions: do I need to bring my own food?
 We will make our best effort to work with your dietary restriction. Please email us with any questions.
+
+### I have some another question not answered here.
+Feel free to ask through our [contact form](https://forms.gle/hv3Vf8yab1dtneev5).

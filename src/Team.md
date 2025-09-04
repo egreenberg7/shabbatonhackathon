@@ -1,7 +1,10 @@
 ## Shabbaton Organizers
-- Moe Frumkin (@jhu.edu)
-- Ezra Greenburg (@jhu.edu)
-- Leah Hersh (lhersh1@jhu.edu)
-- Dahlia Krebs (@jhu.edu)
-- Sarah Papernik (@jhu.edu)
+- Moe Frumkin
+- Ezra Greenberg
+- Leah Hersh
+- Dahlia Krebs
+- Sarah Papernik
+
 ### Feel free to reach out with any questions!
+
+[Contact form](https://forms.gle/hv3Vf8yab1dtneev5)
