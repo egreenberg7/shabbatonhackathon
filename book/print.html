@@ -1,0 +1,328 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Yavneh Shabbaton Hackathon @ JHU</title>
+        <meta name="robots" content="noindex">
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="highlight-css" href="highlight.css">
+        <link rel="stylesheet" id="tomorrow-night-css" href="tomorrow-night.css">
+        <link rel="stylesheet" id="ayu-highlight-css" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="custom.css">
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "searchindex.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Yavneh Shabbaton Hackathon @ JHU</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <i class="fa fa-spinner fa-spin"></i>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <p><img src="images/logo.png" alt="Hackathon Logo" /></p>
+<h1 id="about"><a class="header" href="#about">About</a></h1>
+<p>The Shabbaton Hackathon will be a Shabbaton experience followed by a 20-hour hackathon on the weekend of November 7th to 9th, hosted at Johns Hopkins University Hillel.</p>
+<p>At the Shabbaton, students will have the full Shabbat experience at Johns Hopkins Hillel, where meals, services, and learning opportunities will be provided. Participants will be hosted overnight by Johns Hopkins students, and the Smokler Center of Jewish Life will be available throughout the hackathon.</p>
+<p>For the Hackathon, teams of up to 4 will compete against each other to design a contribution to <a href="https://www.sefaria.org/texts">Sefaria</a> around a project that will be announced Saturday night. During the Hackathon, students will have the opportunity to speak with Hopkins professors and other tech professionals. By 4:30 PM, all submissions will be collected, and the event will conclude at 6:30 PM.</p>
+<h3 id="were-looking-forward-to-seeing-you-there"><a class="header" href="#were-looking-forward-to-seeing-you-there">We're looking forward to seeing you there!</a></h3>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="shabbat--hackathon-schedule"><a class="header" href="#shabbat--hackathon-schedule">Shabbat &amp; Hackathon Schedule</a></h1>
+<h2 id="friday-117"><a class="header" href="#friday-117">Friday 11/7</a></h2>
+<p><strong>11:00 AM - 3:00 PM: Check-In</strong><br />
+Check-in starts at the Hopkins Hillel's Smokler Center for Jewish Life at 3109 N Charles St, Baltimore.</p>
+<p><strong>4:30 - 5:30 PM: Mincha and Kabbalat Shabbat</strong><br />
+Davening and programming for the rest of the night continues at Hillel.<br />
+<em>Candle lighting will be at 4:40 PM.</em></p>
+<p><strong>5:30 - 6:30 PM: Icebreaker</strong></p>
+<p><strong>6:30 PM: Dinner</strong></p>
+<p><strong>8:00 PM: Tisch</strong></p>
+<hr />
+<h2 id="shabbat-day-118"><a class="header" href="#shabbat-day-118">Shabbat Day 11/8</a></h2>
+<p><strong>9:30 AM: Services</strong></p>
+<p><strong>11:45 AM: Kiddush</strong></p>
+<p><strong>12:30 PM: Lunch</strong></p>
+<p><strong>1:30 PM: Mincha</strong></p>
+<p><strong>1:30 - 3:30 PM: Free Time</strong><br />
+An opportunity to explore campus, and an open Beit Midrash and board games are available at Hillel.</p>
+<p><strong>3:30 PM: Shiur with Rabbi Moshe Moskowitz</strong></p>
+<p><strong>4:40 PM: Seudat Shelishit</strong></p>
+<p><strong>5:40 PM: Maariv with Musical Havdalah</strong></p>
+<hr />
+<h2 id="motzei-shabbat"><a class="header" href="#motzei-shabbat">Motzei Shabbat</a></h2>
+<p><strong>7:00 PM: Start of the Hackathon</strong><br />
+Project categories will be announced at Hillel. Feel free to familiarize yourself with the <a href="https://developers.sefaria.org/reference/getting-started">Sefaria API</a> to get a head start!</p>
+<p><strong>9:00 PM: Melavah Malkah</strong><br />
+Pizza dinner and snacks.<br />
+<em>Hillel will remain open for teams to use throughout the night.</em></p>
+<hr />
+<h2 id="sunday-119"><a class="header" href="#sunday-119">Sunday 11/9</a></h2>
+<p><strong>6:25 AM: Neitz (Vatikin)</strong><br />
+<em>If sufficient interest</em></p>
+<p><strong>8:30 AM: Shacharit</strong></p>
+<p><strong>After Minyanim: Continental Breakfast</strong></p>
+<p><strong>12:30 - 1:30 PM: Lunch</strong></p>
+<p><strong>12:30 - 2:30 PM: Advising and Networking</strong><br />
+Meet and ask questions with Hopkins professors and Jewish tech professionals.</p>
+<p><strong>4:30 PM: Hackathon Close</strong><br />
+Submissions are due, and we'll watch the video presentations of your final products.</p>
+<p><strong>4:45 PM: Mincha and Maariv</strong></p>
+<p><strong>5:15 PM: Dinner and Awards</strong></p>
+<p><strong>6:30 PM: Event Conclusion</strong></p>
+<h2 id="laila-tov"><a class="header" href="#laila-tov"><strong>Laila Tov!</strong></a></h2>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="sign-up-form"><a class="header" href="#sign-up-form">Sign-up Form</a></h1>
+<p>Please register <a href="https://forms.gle/f4xU16YbULzrtFpJA">here</a>. Due to limits on how many people we can host this fall, we will inform you by September 29 latest if we are able to have you at the Hackathon. Earlier sign-ups will be given priority.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="faqs"><a class="header" href="#faqs">FAQs</a></h1>
+<h3 id="when-is-the-shabbaton-hackathon-being-held"><a class="header" href="#when-is-the-shabbaton-hackathon-being-held">When is the Shabbaton Hackathon being held?</a></h3>
+<p>The event will start with check-in from 11:00 AM to 3:00 PM on November 7th and will end at 6:30 PM on November 9th.</p>
+<h3 id="what-is-the-cost-of-the-hackathon"><a class="header" href="#what-is-the-cost-of-the-hackathon">What is the cost of the Hackathon?</a></h3>
+<p>Free! Housing and food will be provided, but participants must provide their own transportation to/from Hopkins.</p>
+<h3 id="will-this-be-an-orthodox-shomer-shabbat-event"><a class="header" href="#will-this-be-an-orthodox-shomer-shabbat-event">Will this be an Orthodox, Shomer Shabbat event?</a></h3>
+<p>The Shabbaton and Hackathon will be ran according to Orthodox Jewish practices. All food will be Kosher, and participants are expected to observe the Shabbat according to traditional Halachic practice. With that being said, we are happy to have participants from all denominations!</p>
+<h3 id="can-graduate-students-participate-in-the-hackathon"><a class="header" href="#can-graduate-students-participate-in-the-hackathon">Can graduate students participate in the hackathon?</a></h3>
+<p>Priority will be given to undergraduate students, and we only have limited space available.</p>
+<h3 id="do-i-need-to-come-with-a-team-thats-already-formed"><a class="header" href="#do-i-need-to-come-with-a-team-thats-already-formed">Do I need to come with a team that's already formed?</a></h3>
+<p>You do not need to come with a team that is already formed</p>
+<h3 id="when-will-the-project-be-announced"><a class="header" href="#when-will-the-project-be-announced">When will the project be announced?</a></h3>
+<p>The project will be announced at the start of the hackathon on Saturday night. However, participants looking to get a head start are welcome to familiarize themselves with the <a href="https://developers.sefaria.org/reference/getting-started">Sefaria API</a>.</p>
+<h3 id="is-there-a-minimum-skill-level-required-for-me-to-participate"><a class="header" href="#is-there-a-minimum-skill-level-required-for-me-to-participate">Is there a minimum skill level required for me to participate?</a></h3>
+<p>While completing the projects will require some coding experience, there is no minimum skill level for participation. Consider acquainting yourself with the <a href="https://developers.sefaria.org/reference/getting-started">Sefaria API</a> in advance.</p>
+<h3 id="i-have-dietary-restrictions-do-i-need-to-bring-my-own-food"><a class="header" href="#i-have-dietary-restrictions-do-i-need-to-bring-my-own-food">I have dietary restrictions: do I need to bring my own food?</a></h3>
+<p>We will make our best effort to work with your dietary restriction. Please email us with any questions.</p>
+<h3 id="i-have-some-another-question-not-answered-here"><a class="header" href="#i-have-some-another-question-not-answered-here">I have some another question not answered here.</a></h3>
+<p>Feel free to ask through our <a href="https://forms.gle/hv3Vf8yab1dtneev5">contact form</a>.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="resources"><a class="header" href="#resources">Resources</a></h1>
+<ol>
+<li>
+<p>Learn more about <a href="https://www.yavnehoncampus.org">Yavneh on Campus</a>.</p>
+</li>
+<li>
+<p>Get a head start on the hackathon by familiarizing yourself with the <a href="https://developers.sefaria.org/reference/">Sefaria API</a>.</p>
+</li>
+<li>
+<p>Check out these <a href="https://www.geeksforgeeks.org/blogs/tips-and-tricks-to-crack-a-hackathon/">hackathon tips</a>, but feel free to disregard the advice that your team must include a frontend and backend developer. This won't necessarily be required in this hackathon.</p>
+</li>
+</ol>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="primary-sponsor"><a class="header" href="#primary-sponsor">Primary Sponsor</a></h1>
+<p align="center">
+  <img src="images/yavneh.png" alt="Yavneh Logo">
+</p>
+<p>The Shabbaton Hackathon is generously supported by a <a href="https://www.yavnehoncampus.org/shtark-tank">Yavneh Shtark Tank</a> grant.</p>
+<h2 id="supporting-sponsors"><a class="header" href="#supporting-sponsors">Supporting Sponsors</a></h2>
+<p align="center">
+  <img src="images/HopkinsHillel.jpeg" alt="Hopkins Hillel Logo">
+</p>
+<p align="center">
+  <img src="images/sefaria.png" alt="Sefaria Logo">
+</p><div style="break-before: page; page-break-before: always;"></div><h2 id="shabbaton-organizers"><a class="header" href="#shabbaton-organizers">Shabbaton Organizers</a></h2>
+<ul>
+<li>Moe Frumkin</li>
+<li>Ezra Greenberg</li>
+<li>Leah Hersh</li>
+<li>Dahlia Krebs</li>
+<li>Sarah Papernik</li>
+</ul>
+<h3 id="feel-free-to-reach-out-with-any-questions"><a class="header" href="#feel-free-to-reach-out-with-any-questions">Feel free to reach out with any questions!</a></h3>
+<p><a href="https://forms.gle/hv3Vf8yab1dtneev5">Contact form</a></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+        <script>
+        window.addEventListener('load', function() {
+            window.setTimeout(window.print, 100);
+        });
+        </script>
+
+
+    </div>
+    </body>
+</html>
