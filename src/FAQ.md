@@ -1,7 +1,7 @@
 # FAQs
 
 ### When is the Shabbaton Hackathon being held?  
-The event will start with check-in from 11:00 AM to 3:00 PM on November 7th and will end at 6:30 PM on November 9th.
+The event will start with check-in from 11:00 AM to 3:00 PM. An updated date will be announced soon.
 
 ### What is the cost of the Hackathon?
 Free! Housing and food will be provided, but participants must provide their own transportation to/from Hopkins.

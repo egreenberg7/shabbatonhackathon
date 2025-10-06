@@ -1,3 +1,3 @@
 # Sign-up Form
 
-Please register [here](https://forms.gle/f4xU16YbULzrtFpJA). Due to limits on how many people we can host this fall, we will inform you by September 29 latest if we are able to have you at the Hackathon. Earlier sign-ups will be given priority. 
+Please register interest here [here](https://forms.gle/6kzGb8ZTMYhrCHvs5). We will reach out to you once dates are finalized. Teams that fill out the registration form earlier will be given priority, and we have limited capacity. Thanks!

@@ -1,6 +1,8 @@
 # Shabbat & Hackathon Schedule
 
-## Friday 11/7
+*Times are approximate and will be adjusted based on Shabbat times.*
+
+## Friday
 
 **11:00 AM - 3:00 PM: Check-In**  
 Check-in starts at the Hopkins Hillel's Smokler Center for Jewish Life at 3109 N Charles St, Baltimore.
@@ -17,7 +19,7 @@ Davening and programming for the rest of the night continues at Hillel.
 
 ---
 
-## Shabbat Day 11/8
+## Shabbat Day
 
 **9:30 AM: Services**
 
@@ -49,7 +51,7 @@ Pizza dinner and snacks.
 
 ---
 
-## Sunday 11/9
+## Sunday
 
 **6:25 AM: Neitz (Vatikin)**  
 *If sufficient interest*

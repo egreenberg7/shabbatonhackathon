@@ -176,9 +176,12 @@
 
                 <div id="content" class="content">
                     <main>
-                        <p><img src="images/logo.png" alt="Hackathon Logo" /></p>
+                        <hr />
+<h1 id="update-the-hackathon-will-now-be-occuring-in-the-winter-or-early-spring-please-stay-tuned-for-announcements-and-fill-out-our-interest-form-to-get-priority-registration"><a class="header" href="#update-the-hackathon-will-now-be-occuring-in-the-winter-or-early-spring-please-stay-tuned-for-announcements-and-fill-out-our-interest-form-to-get-priority-registration"><a href=""></a> Update: the Hackathon will now be occuring in the winter or early spring. Please stay tuned for announcements, and fill out our <a href="https://forms.gle/6kzGb8ZTMYhrCHvs5">interest form</a> to get priority registration.</a></h1>
+<hr />
+<p><img src="images/logo.png" alt="Hackathon Logo" /></p>
 <h1 id="about"><a class="header" href="#about">About</a></h1>
-<p>The Shabbaton Hackathon will be a Shabbaton experience followed by a 20-hour hackathon on the weekend of November 7th to 9th, hosted at Johns Hopkins University Hillel.</p>
+<p>The Shabbaton Hackathon will be a Shabbaton experience followed by a 20-hour hackathon hosted at Johns Hopkins University Hillel. Please fill out the interest form to be given priority registration and first notifications when the dates are finalized: <a href="https://forms.gle/6kzGb8ZTMYhrCHvs5">Interest Form</a></p>
 <p>At the Shabbaton, students will have the full Shabbat experience at Johns Hopkins Hillel, where meals, services, and learning opportunities will be provided. Participants will be hosted overnight by Johns Hopkins students, and the Smokler Center of Jewish Life will be available throughout the hackathon.</p>
 <p>For the Hackathon, teams of up to 4 will compete against each other to design a contribution to <a href="https://www.sefaria.org/texts">Sefaria</a> around a project that will be announced Saturday night. During the Hackathon, students will have the opportunity to speak with Hopkins professors and other tech professionals. By 4:30 PM, all submissions will be collected, and the event will conclude at 6:30 PM.</p>
 <h3 id="were-looking-forward-to-seeing-you-there"><a class="header" href="#were-looking-forward-to-seeing-you-there">We're looking forward to seeing you there!</a></h3>
@@ -206,6 +209,22 @@
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
 
 
 
