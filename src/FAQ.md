@@ -7,7 +7,7 @@ The event will start with check-in from 11:00 AM to 3:00 PM. An updated date wil
 Free! Housing and food will be provided, but participants must provide their own transportation to/from Hopkins.
 
 ### Will this be an Orthodox, Shomer Shabbat event?
-The Shabbaton and Hackathon will be ran according to Orthodox Jewish practices. All food will be Kosher, and participants are expected to observe the Shabbat according to traditional Halachic practice. With that being said, we are happy to have participants from all denominations!
+The Shabbaton and Hackathon will be ran according to Orthodox Jewish practices. All food will be Kosher, and participants are expected to observe the Shabbat according to traditional Halachic practice. With that being said, we are happy to have participants from all denominations, and believe it will be a fun and meaningful experience for all participants!
 
 ### Can graduate students participate in the hackathon?
 Priority will be given to undergraduate students, and we only have limited space available. 
