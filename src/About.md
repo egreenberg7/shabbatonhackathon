@@ -1,7 +1,11 @@
+***
+# []() Update: the Hackathon will now be occuring in the winter or early spring. Please stay tuned for announcements, and fill out our [interest form](https://forms.gle/6kzGb8ZTMYhrCHvs5) to get priority registration.
+***
+
 ![Hackathon Logo](images/logo.png)
 
 # About  
-The Shabbaton Hackathon will be a Shabbaton experience followed by a 20-hour hackathon on the weekend of November 7th to 9th, hosted at Johns Hopkins University Hillel.   
+The Shabbaton Hackathon will be a Shabbaton experience followed by a 20-hour hackathon hosted at Johns Hopkins University Hillel. Please fill out the interest form to be given priority registration and first notifications when the dates are finalized: [Interest Form](https://forms.gle/6kzGb8ZTMYhrCHvs5)
 
 At the Shabbaton, students will have the full Shabbat experience at Johns Hopkins Hillel, where meals, services, and learning opportunities will be provided. Participants will be hosted overnight by Johns Hopkins students, and the Smokler Center of Jewish Life will be available throughout the hackathon.
 

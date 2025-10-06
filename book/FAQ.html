@@ -178,11 +178,11 @@
                     <main>
                         <h1 id="faqs"><a class="header" href="#faqs">FAQs</a></h1>
 <h3 id="when-is-the-shabbaton-hackathon-being-held"><a class="header" href="#when-is-the-shabbaton-hackathon-being-held">When is the Shabbaton Hackathon being held?</a></h3>
-<p>The event will start with check-in from 11:00 AM to 3:00 PM on November 7th and will end at 6:30 PM on November 9th.</p>
+<p>The event will start with check-in from 11:00 AM to 3:00 PM. An updated date will be announced soon.</p>
 <h3 id="what-is-the-cost-of-the-hackathon"><a class="header" href="#what-is-the-cost-of-the-hackathon">What is the cost of the Hackathon?</a></h3>
 <p>Free! Housing and food will be provided, but participants must provide their own transportation to/from Hopkins.</p>
 <h3 id="will-this-be-an-orthodox-shomer-shabbat-event"><a class="header" href="#will-this-be-an-orthodox-shomer-shabbat-event">Will this be an Orthodox, Shomer Shabbat event?</a></h3>
-<p>The Shabbaton and Hackathon will be ran according to Orthodox Jewish practices. All food will be Kosher, and participants are expected to observe the Shabbat according to traditional Halachic practice. With that being said, we are happy to have participants from all denominations!</p>
+<p>The Shabbaton and Hackathon will be ran according to Orthodox Jewish practices. All food will be Kosher, and participants are expected to observe the Shabbat according to traditional Halachic practice. With that being said, we are happy to have participants from all denominations, and believe it will be a fun and meaningful experience for all participants!</p>
 <h3 id="can-graduate-students-participate-in-the-hackathon"><a class="header" href="#can-graduate-students-participate-in-the-hackathon">Can graduate students participate in the hackathon?</a></h3>
 <p>Priority will be given to undergraduate students, and we only have limited space available.</p>
 <h3 id="do-i-need-to-come-with-a-team-thats-already-formed"><a class="header" href="#do-i-need-to-come-with-a-team-thats-already-formed">Do I need to come with a team that's already formed?</a></h3>
@@ -225,6 +225,22 @@
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
 
 
 
