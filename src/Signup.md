@@ -1,3 +1,3 @@
 # Sign-up Form
 
-Please register interest here [here](https://forms.gle/6kzGb8ZTMYhrCHvs5). We will reach out to you once dates are finalized. Teams that fill out the registration form earlier will be given priority, and we have limited capacity. Thanks!
+Please register [here](https://forms.gle/t5dMmZ3Vr2n1s5f67). Registration is due by 11:59 PM on Tuesday, February 10. We will then confirm your registration and event details by Thursday February 11. Teams that fill out the registration form earlier will be given priority, and we have limited capacity. Thanks!
