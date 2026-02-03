@@ -1,21 +1,19 @@
 # Shabbat & Hackathon Schedule
 
-*Times are approximate and will be adjusted based on Shabbat times.*
+*Times are approximate and may be adjusted.*
 
 ## Friday
 
-**11:00 AM - 3:00 PM: Check-In**  
+**11:00 AM - 4:00 PM: Check-In**  
 Check-in starts at the Hopkins Hillel's Smokler Center for Jewish Life at 3109 N Charles St, Baltimore.
 
-**4:30 - 5:30 PM: Mincha and Kabbalat Shabbat**  
+**5:30 - 6:30 PM: Mincha and Kabbalat Shabbat**  
 Davening and programming for the rest of the night continues at Hillel.  
 *Candle lighting will be at 4:40 PM.*
 
-**5:30 - 6:30 PM: Icebreaker**
-
 **6:30 PM: Dinner**
 
-**8:00 PM: Tisch**
+**8:00 PM: Icebreakers and Tisch**
 
 ---
 
@@ -27,25 +25,25 @@ Davening and programming for the rest of the night continues at Hillel.
 
 **12:30 PM: Lunch**
 
-**1:30 PM: Mincha**
+**1:45 PM: Mincha**
 
-**1:30 - 3:30 PM: Free Time**  
+**2:00 - 4:30 PM: Free Time**  
 An opportunity to explore campus, and an open Beit Midrash and board games are available at Hillel.
 
-**3:30 PM: Shiur with Rabbi Moshe Moskowitz**
+**4:30 PM: Shiur with Rabbi Moshe Moskowitz**
 
-**4:40 PM: Seudat Shelishit**
+**5:40 PM: Seudat Shelishit**
 
-**5:40 PM: Maariv with Musical Havdalah**
+**6:45 PM: Maariv with Musical Havdalah**
 
 ---
 
 ## Motzei Shabbat
 
-**7:00 PM: Start of the Hackathon**  
+**7:45 PM: Start of the Hackathon**  
 Project categories will be announced at Hillel. Feel free to familiarize yourself with the [Sefaria API](https://developers.sefaria.org/reference/getting-started) to get a head start!
 
-**9:00 PM: Melavah Malkah**  
+**9:30 PM: Melavah Malkah**  
 Pizza dinner and snacks.  
 *Hillel will remain open for teams to use throughout the night.*
 
@@ -53,7 +51,7 @@ Pizza dinner and snacks.
 
 ## Sunday
 
-**6:25 AM: Neitz (Vatikin)**  
+**7:10 AM: Neitz Minyan (Vatikin)**  
 *If sufficient interest*
 
 **8:30 AM: Shacharit**
@@ -62,13 +60,13 @@ Pizza dinner and snacks.
 
 **12:30 - 1:30 PM: Lunch**
 
-**12:30 - 2:30 PM: Advising and Networking**  
-Meet and ask questions with Hopkins professors and Jewish tech professionals.
+**12:30 - 2:30 PM: Additional Activities**  
+Networking opportunities and/or additional coding challenges; details to be announced.
 
 **4:30 PM: Hackathon Close**  
-Submissions are due, and we'll watch the video presentations of your final products.
+Submissions are due, and we'll watch the presentations of your final products.
 
-**4:45 PM: Mincha and Maariv**
+**4:45 PM: Mincha**
 
 **5:15 PM: Dinner and Awards**
 
