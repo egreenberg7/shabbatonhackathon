@@ -9,7 +9,7 @@ Check-in starts at the Hopkins Hillel's Smokler Center for Jewish Life at 3109 N
 
 **5:30 - 6:30 PM: Mincha and Kabbalat Shabbat**  
 Davening and programming for the rest of the night continues at Hillel.  
-*Candle lighting will be at 4:40 PM.*
+*Candle lighting is at 5:46 PM.*
 
 **6:30 PM: Dinner**
 
