@@ -1,5 +1,5 @@
 
-## []() Update: Registration is now open through Tuesday February 10! Sign up [here](https://forms.gle/t5dMmZ3Vr2n1s5f67).
+## []() Update: Registration is now open through Sunday February 15! Sign up [here](https://forms.gle/t5dMmZ3Vr2n1s5f67).
 ***
 
 ![Hackathon Logo](images/updated_logo.jpg)
