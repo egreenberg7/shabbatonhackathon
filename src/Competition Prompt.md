@@ -48,3 +48,12 @@ ___
 
 
 To see other tools people have made with Sefaria, feel free to look at some of their [visualizations](https://www.sefaria.org/visualizations) or some of the projects on the [Powered by Sefaria Page](https://www.sefaria.org/powered-by) (note: we are aware that these are projects that likely took well over 24 hours to make).
+
+
+___
+__AI Policy__
+
+The use of ChatGPT and other generative AI is acceptable with the following restrictions:
+- Only free versions of AI tools should be used
+- No coding agents
+- We want you to come up with the original idea for the tool. While AI can help with ideation for additional features, the initial concept should be from your natural intelligence :)
