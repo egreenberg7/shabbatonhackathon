@@ -7,3 +7,4 @@
 - [Resources](./Resources.md)
 - [Sponsors](./Sponsors.md)
 - [Team](./Team.md)
+- [Contest Details!](./Competition%20Prompt.md)
